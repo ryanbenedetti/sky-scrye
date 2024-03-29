@@ -1,1 +1,5 @@
-<%= @forecasts %>
+<ul>
+<% @forecasts.each do |forecast| %>
+  <li><%= forecast %></li>
+<% end %>
+</ul>
